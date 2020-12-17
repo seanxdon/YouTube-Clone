@@ -2,8 +2,10 @@
 	display: flex !important;
 	align-items: center !important;
 	cursor: pointer;
+	background-color: #e6e6e6;
 }
 
 .video-item.item img {
 	max-width: 180px;
+	padding: 10px;
 }

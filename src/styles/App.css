@@ -1,0 +1,33 @@
+body {
+	background-color: #fafafa;
+}
+
+@media only screen and (min-width: 1400px) {
+	.ui.container {
+		width: 1400px;
+	}
+
+	.ui.grid.container {
+		width: calc(723px + 1rem) !important;
+	}
+
+	.ui.relaxed.grid.container {
+		width: calc(723px + 2rem) !important;
+	}
+
+	.ui.very.relaxed.grid.container {
+		width: calc(723px + 3rem) !important;
+	}
+}
+
+.youtube-logo {
+	max-width: 200px;
+}
+
+.youtube-header {
+	text-align: center;
+}
+
+.ui .segment {
+	background-color: #e6e6e6;
+}
